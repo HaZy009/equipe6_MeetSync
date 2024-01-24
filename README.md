@@ -1,4 +1,4 @@
 # MeetSync
 
 Joel Normand
-/n Zouhair El Mehdi
+Zouhair El Mehdi
