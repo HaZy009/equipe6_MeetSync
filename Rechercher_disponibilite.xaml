@@ -103,33 +103,7 @@
                             <!-- Ajoutez ici des éléments pour les autres heures -->
                         </ComboBox>
                     </StackPanel>
-            </StackPanel>
-
-
-            <!-- Zone de sélection du personnel -->
-                <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
-                    <TextBox x:Name="PersonRecherche" Style="{StaticResource RoundedTextBox}" Text="Rerchercher par personne" Width="200" Margin="0,0,10,0" />
-                    <Button x:Name="Recherche_Perso" Style="{StaticResource RoundedButton}" Content="Rechercher personne" Width="150" Margin="10,0,0,5"/>
                 </StackPanel>
-
-                <!-- Zone de résultats -->
-                <ListView Margin="0,20,0,0">
-                    <ListView.Resources>
-                        <Style TargetType="GridViewColumnHeader">
-                            <Setter Property="IsHitTestVisible" Value="False" />
-                            <Setter Property="FontWeight" Value="Bold"/>
-                            <Setter Property="Height" Value="32"/>
-                            <!-- Ajoutez d'autres propriétés de style si nécessaire -->
-                        </Style>
-                    </ListView.Resources>
-                    <ListView.View>
-                        <GridView>
-                            <GridViewColumn Header="Nom" Width="185" />
-                            <GridViewColumn Header="Prénom" Width="185" />
-                            <GridViewColumn Header="Courriel" Width="185"/>
-                        </GridView>
-                    </ListView.View>
-                </ListView>
 
                 <!-- Zone de sélection du personnel -->
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">

@@ -47,16 +47,6 @@ namespace Gestion_des_horaires
 
         private void Lister_Btn_Click(object sender, RoutedEventArgs e)
         {
-            // Créez une instance de la fenêtre du Rechercher_disponibilite
-            Rechercher_disponibilite RchercherDispo = new Rechercher_disponibilite();
-            // Affichez la fenêtre du Rechercher_disponibilite
-            RchercherDispo.Show();
-            // Cacher la fenêtre Rechercher_disponibilite
-            this.Hide();
-        }
-
-        private void Lister_Btn_Click_1(object sender, RoutedEventArgs e)
-        {
             // Créez une instance de la fenêtre du Lister_disponibilite
             Lister_disponibilite ListerDispo = new Lister_disponibilite();
             // Affichez la fenêtre du Rechercher_disponibilite

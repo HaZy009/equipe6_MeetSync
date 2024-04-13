@@ -71,7 +71,7 @@
             </Button>
 
             <!-- Bouton pour "La Liste de disponibilité" -->
-            <Button x:Name="Lister_Btn" Grid.Column="4" Width="260" Height="100" HorizontalAlignment="Center" Click="Lister_Btn_Click_1">
+            <Button x:Name="Lister_Btn" Grid.Column="4" Width="260" Height="100" HorizontalAlignment="Center" Click="Lister_Btn_Click">
                 <Button.Template>
                     <ControlTemplate TargetType="Button">
                         <Border Background="{TemplateBinding Background}" CornerRadius="10" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}">
@@ -83,8 +83,8 @@
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                     <Image Source="pack://application:,,,/images/list.png" Width="50" Height="50" Margin="10,0,0,0" VerticalAlignment="Center"/>
                     <TextBlock Text="La Liste des disponibilités" Margin="10,0,0,0" VerticalAlignment="Center"
-                               FontFamily="Arial"
-                               FontSize="14"/>
+                   FontFamily="Arial"
+                   FontSize="14"/>
                 </StackPanel>
             </Button>
         </Grid>
