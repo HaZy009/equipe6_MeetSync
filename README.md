@@ -11,3 +11,6 @@ Zerouali Hamza </br>
 
 -- Céer une disponibilité </br>
 ![Screenshot 2024-04-17 113339](https://github.com/HaZy009/equipe6_MeetSync/assets/131053615/ae172fad-2129-4c43-a203-456773feb9a9)
+
+-- Rechercher une disponibilité </br>
+![Screenshot 2024-04-17 113354](https://github.com/HaZy009/equipe6_MeetSync/assets/131053615/52d978cb-078e-419e-859a-997f2e4c692c)
